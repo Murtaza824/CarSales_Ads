@@ -3,7 +3,6 @@ import os
 import pandas as pd
 import plotly.express as px
 import numpy as np
-import matplotlib.pyplot as plt
 import altair as alt
 import pydeck as pdk
 import googlemaps
