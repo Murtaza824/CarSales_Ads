@@ -211,7 +211,7 @@ st.dataframe(filtered_df)
 st.subheader('Summary Statistics')
 st.write(f"Number of records: {len(filtered_df)}")
 st.write(f"Average negotiated rate: ${filtered_df['negotiated_rate'].mean():.2f}")
-st.write(f"Median negotiated rate: ${filtered_df.query('negotiated_type == "negotiated"')['negotiated_rate'].median():.2f}")
+st.write(f"Median negotiated rate: ${filtered_df.query('negotiated_type == \"negotiated\"')['negotiated_rate'].median():.2f}")
 
 st.divider()
 
