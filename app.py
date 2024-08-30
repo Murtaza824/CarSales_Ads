@@ -22,7 +22,7 @@ st.markdown("""
 
 
 ### Code for dataframe
-payer_df = pd.read_csv('~/Documents/Payer-Data-Analysis/payer_dataset_extract.csv')
+payer_df = pd.read_csv('Payer-Data-Analysis/payer_dataset_extract.csv')
 payer_df = payer_df.drop(['sub_npi','billing_code_modifier', 'provider_group_id_type', 'provider_group_id', 'negotiation_arrangement','billing_class'], axis=1)
 
 _ = """
